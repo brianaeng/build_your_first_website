@@ -11,7 +11,7 @@ header {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #f4f4f4;
   font-family: sans-serif;
   color: #474747;
 }
@@ -20,39 +20,60 @@ footer {
   border: 1px solid black;
   text-align: center;
   background-color: #DCDCDC;
+  margin-top: 100px;
+}
+
+h4 {
+  margin: 7px;
+}
+
+p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type:none;
 }
 
 li a:hover {
   color: #000000;
 }
 
-nav ul {
-  list-style: none;
-  margin: 10px;
-  text-align: center;
+.clean_center {
+  margin: 10 auto;
+  padding: 0;
+  text-align:center;
 }
 
-nav li {
+.inline {
   display: inline-block;
   vertical-align: top;
 }
 
-section li {
-  display: inline-block;
-  vertical-align: top;
-}
-
-section ul {
-  text-align: center;
-}
-
-section img {
-  width:  auto;
-  height: 300px;
-}
-
-article img {
-  position: relative;
+.align {
+  position: static;;
   float: left;
   margin-right: 10px;
+}
+
+.resize_large {
+  width:  auto;
+  height: 300px;
+  margin: 10px;
+}
+
+.resize_medium {
+  width:  auto;
+  height: 200px;
+  margin: 10px;
+}
+
+.resize_small {
+  width:  auto;
+  height: 50px;
+  margin: 10px;
+}
+
+.clearfix:after {
+    clear: both;
 }
