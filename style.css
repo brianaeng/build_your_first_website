@@ -1,13 +1,7 @@
-/*Place the Header/Title section across the top of the site with a border and appropriate background color.
-Page Specific Styling:
-
-contact.html
-The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it.*/
-
 header {
   background-color: #b8b8b8;
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 body {
@@ -20,11 +14,17 @@ footer {
   border: 1px solid black;
   text-align: center;
   background-color: #DCDCDC;
-  margin-top: 100px;
+  margin-top: 50px;
+  position: static;
+}
+
+article {
+  margin: 15px;
 }
 
 h4 {
-  margin: 7px;
+  margin: 15px;
+  clear: left;
 }
 
 p {
@@ -35,8 +35,16 @@ ul {
   list-style-type:none;
 }
 
+a {
+  text-decoration: none;
+}
+
 li a:hover {
   color: #000000;
+}
+
+article ul {
+  margin-top: 100px;
 }
 
 .clean_center {
@@ -48,10 +56,11 @@ li a:hover {
 .inline {
   display: inline-block;
   vertical-align: top;
+  margin: 7px;
 }
 
 .align {
-  position: static;;
+  position: static;
   float: left;
   margin-right: 10px;
 }
@@ -72,8 +81,4 @@ li a:hover {
   width:  auto;
   height: 50px;
   margin: 10px;
-}
-
-.clearfix:after {
-    clear: both;
 }
